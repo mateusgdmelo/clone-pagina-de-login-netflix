@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/4202092logomovienetflixsocialsocialmediavideo-115596_115705.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div id="fundo">
+            <section id="logo">
+                <a href="#">
+                    <img src="imagens/netflixlogo.png" alt="logo da Netflix">
+                </a>
+            </section>
+            <section id="formulario">
+                <h1>Entrar</h1>
+                <form action="cadastro.php" method="post">
+                    <div class="login-senha-borda">
+                        <label for="iusuario"></label>
+                        <input type="text" name="usuario" id="iusuario" required placeholder="Email ou número de celular"  class="login-senha">
+                    </div>
+                    <div class="login-senha-borda">
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" required placeholder="Senha" class="login-senha">
+                    </div>
+                    <div>
+                        <input type="submit" value="Entrar"  class="entrar-ou-codigo-de-acesso" id="ientrar">
+                    </div>
+                    <p class="ou-e-esqueceu-a-senha">OU</p>
+                    <div>
+                        <input type="submit" value="Usar um código de acesso" class="entrar-ou-codigo-de-acesso">
+                    </div>
+                    <p class="ou-e-esqueceu-a-senha">
+                        <a href="#" class="ou-e-esqueceu-a-senha">Esqueceu a senha?</a>
+                    </p>
+                    <div>
+                        <input type="checkbox" name="lembre-se" id="ilembre-se">
+                        <span class="custon-checkbox"></span>
+                        <label for="ilembre-se">Lembre-se de mim</label>
+                    </div>
+                    <p id="assine-agora">
+                        Novo por aqui? <a href="#">Assine agora.</a>
+                    </p>
+                    <p id="recaptcha">
+                        Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais.</a>
+                    </p>
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Dúvidas? Ligue <a href="#">0800 591 2876</a></p>
+        <nav>
+            <p><a href="#">Perguntas frequentes</a></p>
+            <p><a href="#">Central de ajuda</a></p>
+            <p><a href="#">Termos de uso</a></p>
+            <p><a href="#">Privacidade</a></p>
+            <p><a href="#">Preferências de cookies</a></p>
+            <p><a href="#">Informações corporativas</a></p>
+        </nav>
+        <form action="cadastro.php" method="get">
+            <select name="idioma" id="iidioma">
+                    <option value="PT"> Português</option>
+                    <option value="IN">Inglês</option>
+            </select>
+        </form>
+    </footer>
+</body>
+</html>

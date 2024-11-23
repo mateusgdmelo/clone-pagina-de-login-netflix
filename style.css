@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { background-color: black; }
+
+main {
+    height: 100vh;
+
+    background: black url(imagens/background.jpg) center center no-repeat scroll;
+    background-size: cover;
+}
+
+div#fundo { background-color: rgba(0, 0, 0, 0.301); }
+
+section#logo {
+    width: 160px;
+
+    padding-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+section#logo img { width: 100%; }
+
+section#formulario {
+    margin: auto;
+
+    font-family: 'Segoe UI';
+    color: white;
+    padding: 50px 70px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 5px;
+}
+
+section#formulario h1 {
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+input.login-senha {
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    font-size: 16px;
+    color: #B7B7B7;
+}
+
+input.entrar-ou-codigo-de-acesso {
+    margin-bottom: 15px;
+    border: none;
+    background-color: #434141;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input.entrar-ou-codigo-de-acesso:hover{
+    background-color: #31373A;
+    cursor: pointer;
+}
+
+input#ientrar { background-color: #E50914; }
+
+input#ientrar:hover { background-color: #C11119; }
+
+p.ou-e-esqueceu-a-senha {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+p.ou-e-esqueceu-a-senha a {
+    text-decoration: none;
+    color: white;
+}
+
+p.ou-e-esqueceu-a-senha a:hover {
+    text-decoration: underline;
+    color: #B8B7B7;
+}
+
+input#ilembre-se { margin-bottom: 15px; } 
+
+p#assine-agora { 
+    color: #B4B4B5;
+    margin-bottom: 20px; 
+}
+
+p#assine-agora a { 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+p#assine-agora a:hover { text-decoration: underline; }
+
+p#recaptcha { 
+    color: #B4B4B5;
+    font-size: 13px; 
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    font-family: 'Segoe UI';
+    color: #FFFFFFB3;
+    font-size: 16px;
+    height: 520px; 
+    padding: 40px;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav p {
+    font-size: 14px;
+}
+
+footer p {
+    padding-bottom: 20px;
+    width: 260px;
+}
+
+footer a {
+    color: #FFFFFFB3;
+}
+
+select {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+    background-color: #0F0F0F;
+    color: white;
+}
+
+

@@ -8,18 +8,10 @@
 
 body { background-color: black; }
 
-main {
-    height: 100vh;
-
-    background: black url(imagens/background.jpg) center center no-repeat scroll;
-    background-size: cover;
-}
-
-div#fundo { background-color: rgba(0, 0, 0, 0.301); }
+main { height: 100vh; }
 
 section#logo {
     width: 160px;
-
     padding-top: 20px;
     margin-left: 150px;
     margin-bottom: 20px;
@@ -29,7 +21,6 @@ section#logo img { width: 100%; }
 
 section#formulario {
     margin: auto;
-
     font-family: 'Segoe UI';
     color: white;
     padding: 50px 70px;
@@ -66,16 +57,14 @@ input.entrar-ou-codigo-de-acesso {
     height: 40px;
     border-radius: 5px;
     font-weight: bold;
-}
-
-input.entrar-ou-codigo-de-acesso:hover{
-    background-color: #31373A;
     cursor: pointer;
 }
 
-input#ientrar { background-color: #E50914; }
+input#codigo-de-acesso:hover{ background-color: #31373A; }
 
-input#ientrar:hover { background-color: #C11119; }
+input#entrar { background-color: #E50914; }
+
+input#entrar:hover { background-color: #C11119; }
 
 p.ou-e-esqueceu-a-senha {
     text-align: center;

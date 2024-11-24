@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+main {
+    background: url(imagens/background.jpg) center center no-repeat scroll;
+    background-size: cover;
+}
+
+div#fundo { background-color: rgba(0, 0, 0, 0.301); }

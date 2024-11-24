@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="style-phone.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="style-tv-e-pc.css" media="screen and (min-width: 601px)">
     <link rel="shortcut icon" href="imagens/4202092logomovienetflixsocialsocialmediavideo-115596_115705.png" type="image/x-icon">
 </head>
 <body>
@@ -12,7 +14,7 @@
         <div id="fundo">
             <section id="logo">
                 <a href="#">
-                    <img src="imagens/netflixlogo.png" alt="logo da Netflix">
+                    <img src="imagens/netflixlogo.png" alt="logo da netflix">
                 </a>
             </section>
             <section id="formulario">
@@ -27,18 +29,17 @@
                         <input type="password" name="senha" id="isenha" required placeholder="Senha" class="login-senha">
                     </div>
                     <div>
-                        <input type="submit" value="Entrar"  class="entrar-ou-codigo-de-acesso" id="ientrar">
+                        <input type="submit" value="Entrar"  class="entrar-ou-codigo-de-acesso" id="entrar">
                     </div>
                     <p class="ou-e-esqueceu-a-senha">OU</p>
                     <div>
-                        <input type="submit" value="Usar um código de acesso" class="entrar-ou-codigo-de-acesso">
+                        <input type="submit" value="Usar um código de acesso" class="entrar-ou-codigo-de-acesso" id="codigo-de-acesso">
                     </div>
                     <p class="ou-e-esqueceu-a-senha">
                         <a href="#" class="ou-e-esqueceu-a-senha">Esqueceu a senha?</a>
                     </p>
                     <div>
                         <input type="checkbox" name="lembre-se" id="ilembre-se">
-                        <span class="custon-checkbox"></span>
                         <label for="ilembre-se">Lembre-se de mim</label>
                     </div>
                     <p id="assine-agora">
